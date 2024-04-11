@@ -9,6 +9,9 @@ const data = {
   'otp': code.value
 };
 
+console.log(email.value);
+console.log(code.value);
+
 const options = {
   method: 'POST',
   headers: {

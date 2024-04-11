@@ -10,7 +10,7 @@ submit.addEventListener('click', function(event) {
 
   const data = {
     email: email,
-    password: password
+    otp: password
   };
 
   const options = {

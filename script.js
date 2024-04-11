@@ -18,7 +18,8 @@ const options = {
   body: JSON.stringify(data)
 };
 
-fetch(url, options)
+function activate(){
+  fetch(url, options)
   .then(response => {
     if (!response.ok) {
       throw new Error('Network response was not ok');
@@ -33,3 +34,6 @@ fetch(url, options)
     console.error('There was a problem connecting to the server please try again later', error);
     // Handle errors here
   });
+};
+
+button.addEventListener('click', activate);

@@ -1,4 +1,4 @@
-const url = 'https://learnify-api-kps0.onrender.com/api/v1/auth/login/'; // Replace with your API endpoint
+const url = 'https://learnify-api-kps0.onrender.com/api/v1/auth/confirm-user/'; // Replace with your API endpoint
 
 const submit = document.getElementById('submit');
 
